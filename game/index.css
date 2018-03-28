@@ -1,0 +1,28 @@
+* {
+	font-size: 20px;
+	font-family: Tahoma;
+}
+
+#a {
+	background-color: yellow;
+}
+
+.b {
+	background-color: red;
+}
+
+div {
+	background-color: green;
+}
+
+div#a {
+	background-color: aqua;
+}
+
+.b#a {
+	background-color: magenta !important;
+}
+
+div.b#a {
+	background-color: gray;
+}
