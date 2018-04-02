@@ -33,6 +33,11 @@ a:hover {
 	font-size: 2em;
 
 }
+
+ul > :first-child {
+	background-color: red;
+}
+
 ul > :nth-child(2n) {
 	background-color: yellow;
 }
@@ -40,3 +45,13 @@ ul > :nth-child(2n) {
 ul > :nth-child(2n+1) {
 	background-color: aqua;
 }
+
+ul > :nth-child(1) {
+	background-color: blue;
+}
+
+input:focus {
+
+	background-color: yellow;
+}
+
