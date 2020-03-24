@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>National Weather Service</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="jquery-3.3.1.js"></script>
+	<script type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=[AIzaSyAVIxashCeS-OAtK20OrYLJkurubtM4neU]&libraries=places,geometry"></script>
+</head>
+<body>
+	
+	<header class="page-header">
+		<div class="logo"><img src="images\slightly-cloudy-1265204.svg" width="125" height="125"></div>
+		<nav class="main-menu">
+                <ul>
+                    <li><a href="index1.html">Главная</a></li>
+                    <li><a href="index2.html">Посты</a></li>
+                    <li><a href="index3.html">Обо мне</a></li>
+                    <li class="search1"><label for="search">Пошук: </label>
+<input id="search"></li>
+                </ul>
+                
+            </nav>
+	</header>
+<main>
+	<form method="get">
+    <fieldset>
+        <ul>
+            <li>
+                <label for="latitude">Широта</label>
+                <input type="text" id="latitude" placeholder=" 42.9150747" required pattern="^[ 0-9]+$">
+            </li>
+            <li>
+                <label for="longitude">Довгота</label>
+                <input type="text" id="longitude" placeholder=" -77.784323" required pattern="^[ 0-9]+$">
+            </li>
+            <!--<li>
+  				<label for="city-search">Назва населеного пункту</label>
+  				<input type="text" id="city-search" placeholder="Івано-Франківськ">
+			</li>-->
+        </ul>
+
+        <div id="main"></div>
+
+    </fieldset>
+    <button>Показати прогноз</button>
+</form>
+</main>
+
+ <footer class="page-footer">
+            <section class="info"><img src="images\drop-1751084.svg" width="50" height="50">
+            National Weather Service © 2000—2018</section>
+            
+            
+        </footer>
+
+</body>
+</html>
